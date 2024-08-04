@@ -1,16 +1,10 @@
 
 
-Main
+class Main
 {
-    public static main(String args[][])
+    public static void main(String args[])
     {
-        panel.addMouseListener(new MouseAdapter() 
-                {
-                    @Override
-                    public void mouseClicked(MouseEvent e) 
-                    {
-                        handleMouseClick(panel);
-                    }
-                });
+        System.out.println("Hello World");
+        System.exit(0);
     }
 }
